@@ -77,9 +77,10 @@ window.addEventListener("load", function() {
       } else if (fuelLevelInput.value >= 10000 && cargoMassInput.value <= 10000) {
          launchStatus.style.color = "green";
          let launchStatusReady = document.getElementById("launchStatus").innerHTML = `Shuttle is ready for launch!`;
-         let fuelLevelEnough = document.getElementById("fuelStatus");
-         let cargoMassLight = document.getElementById("cargoStatus");
-         cargoMassLight.innerHTML;
+         faultyItemShow.style.visibility = "hidden";
+         // let fuelLevelEnough = document.getElementById("fuelStatus");
+         // let cargoMassLight = document.getElementById("cargoStatus");
+         // cargoMassLight.innerHTML;
       };
 
    });
